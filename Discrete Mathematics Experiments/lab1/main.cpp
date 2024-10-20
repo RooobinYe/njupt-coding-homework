@@ -64,7 +64,7 @@ std::vector<std::string> infixToPostfix(const std::string& expr) {
                 opStack.pop();
             }
             else {
-                std::cerr << "错误：不匹配的括号。" << std::endl;
+                std::cerr << "Error: mismatched brackets." << std::endl;
                 exit(1);
             }
             i++;
